@@ -21,13 +21,15 @@ public class MapMy {
 
 }
 
+@Slf4j
 // BUT BETTER
 class MapNew {
+
   public static void main(String[] args) {
-    List<String > collected = Stream.of("a", "b", "hello")
+    List<String> collected = Stream.of("a", "b", "hello")
         .map(String::toUpperCase)
         .collect(Collectors.toList());
-    System.out.println(collected);
+    log.info("Collected result with Stream API " + collected);
   }
 
 }
