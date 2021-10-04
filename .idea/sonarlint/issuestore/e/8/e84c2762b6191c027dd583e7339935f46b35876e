@@ -1,0 +1,8 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ë»ù×úÿÿÿÿ8Õ×¿Ö½/
+Y
+java:S1128"<Remove this unused import 'java.util.function.LongFunction'.(½žèŽ8Ö×¿Ö½/
+c
+java:S1128"ARemove this unused import 'java.util.function.LongUnaryOperator'.(™ìéÕþÿÿÿÿ8Ö×¿Ö½/
+Z
+java:S1128	">Remove this unused import 'java.util.function.ToLongFunction'.(å¼úx8Ö×¿Ö½/

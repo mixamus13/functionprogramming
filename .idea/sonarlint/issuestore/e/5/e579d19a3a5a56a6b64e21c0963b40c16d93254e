@@ -1,0 +1,6 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Á¸©¸8ĞçÑ½¹/
+F
+java:S2201")The return value of "count" must be used.(Ù Ëû8ÑçÑ½¹/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8ÒçÑ½¹/
+]	java:S125 "<This block of commented-out lines of code should be removed.(Ù¶…üÿÿÿÿ8ÒçÑ½¹/

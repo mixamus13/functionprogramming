@@ -1,10 +1,11 @@
-package imperative;
+package amigocode;
 
-import static imperative.Main.Gender.*;
-import static imperative.Main.Gender.MALE;
+import static amigocode.Main.Gender.*;
+import static amigocode.Main.Gender.MALE;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import lombok.AllArgsConstructor;
 import lombok.ToString;
@@ -36,9 +37,12 @@ public class Main {
 
     System.out.println();
     System.out.println("Declarative approach");
+
     // Declarative approach
+    Predicate<Person> personPredicate = person -> MALE.equals(person.gender);
+
     List<Person> personList = people.stream()
-        .filter(person -> MALE.equals(person.gender))
+        .filter(personPredicate)
         .collect(Collectors.toList());
     personList.forEach(System.out::println);
   }

@@ -1,0 +1,13 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(âïñß8×¿Ö½/
+:
+java:S2386 "Make this member "protected".(É¡ï 8‘×¿Ö½/
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(Õçòþÿÿÿÿ8—×¿Ö½/
+M
+java:S2201-"+The return value of "collect" must be used.(–Á½þÿÿÿÿ8™×¿Ö½/
+c
+java:S1128"ARemove this unused import 'functionprogramming.music.SampleData'.(ðå¹‹ûÿÿÿÿ8š×¿Ö½/
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8š×¿Ö½/
+T
+java:S1128	"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ8š×¿Ö½/

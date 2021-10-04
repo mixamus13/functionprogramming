@@ -6,7 +6,9 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 public class FlatMapMy {
 
   public static void main(String... args) {
@@ -17,7 +19,7 @@ public class FlatMapMy {
             Arrays.asList(34, 66, 124))
         .flatMap(Collection::parallelStream)
         .collect(Collectors.toList());
-    System.out.println("together = " + together);
+    log.info("together = " + together);
 
     List<Integer> min = Stream.of(
             Arrays.asList(43, 11, 3, 4),
@@ -25,6 +27,6 @@ public class FlatMapMy {
             Arrays.asList(34, 66, 124))
         .min(Comparator.comparing(List::isEmpty))
         .get();
-    System.out.println("min = " + min);
+    log.info("min = " + min);
   }
 }
