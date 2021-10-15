@@ -9,8 +9,6 @@ c
 3src/main/java/functionprogramming/ljf/LJFClass.java,2/f/2ff3f3c3fa58f35ca2adee5f443cca47b28f9e3f
 m
 =src/test/java/functionprogramming/chapter3/CollectMyTest.java,c/e/ce9cb3cf147c59ca3201805babdcd299dbb06275
-S
-#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 W
 '.idea/libraries/Java_EE_6_Java_EE_6.xml,d/e/de547daf4b9e3e50cc4e8f5d80bd27749df7c357
 H
@@ -41,8 +39,6 @@ j
 :src/main/java/functionprogramming/chapter4/ParentImpl.java,f/2/f239169b088bf18ad6dafceff633ed705a98014d
 h
 8src/main/java/functionprogramming/music/Performance.java,a/1/a1d371190cd65658fac9df06579504b24f34381a
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 h
 8src/main/java/functionprogramming/chapter3/ReduceMy.java,9/4/94d41160ecafccb1a93a427424b1b29460d628cc
 g

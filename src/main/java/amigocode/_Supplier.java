@@ -2,12 +2,14 @@ package amigocode;
 
 import java.util.List;
 import java.util.function.Supplier;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 public class _Supplier {
 
   public static void main(String[] args) {
-    System.out.println(getDBConnectionsUrl());
-    System.out.println(getDBConnectionsUrlsSupplier.get());
+    log.info(getDBConnectionsUrl());
+    log.info(" " + getDBConnectionsUrlsSupplier.get());
   }
 
   static String getDBConnectionsUrl() {
