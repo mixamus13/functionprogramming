@@ -4,7 +4,7 @@ import java.awt.Desktop;
 import java.net.URI;
 import java.net.URLEncoder;
 import java.util.Map;
-import java.util.concurrent.ConcurrentSkipListMap;
+import lombok.val;
 import org.atpfivt.ljv.LJV;
 
 public class LJFClass {
@@ -15,7 +15,7 @@ public class LJFClass {
 
   public static void browse(LJV ljv, Object obj) {
     try {
-      var dot = URLEncoder.encode(ljv.drawGraph(obj), "UTF8")
+      val dot = URLEncoder.encode(ljv.drawGraph(obj), "UTF8")
           .replaceAll("\\+", "%20");
       Desktop.getDesktop().browse(
           new URI("https://dreampuf.github.io/GraphvizOnline/#"
